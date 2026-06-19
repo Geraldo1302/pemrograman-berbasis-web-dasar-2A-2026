@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Portofolio</title>
+</head>
+
+<body class="bg-gray-900 text-white">
+    <nav class="flex justify-between p-5 bg-gray-800 fixed w-full ">
+        <h1 class="text-xl font-bold">Portfolio Geraldo</h1>
+        <ul class="flex gap-6">
+            <li><a href="#home" class="hover:text-blue-400">Home</a></li>
+            <li><a href="#about" class="hover:text-blue-400">About</a></li>
+            <li><a href="#services" class="hover:text-blue-400">Services</a></li>
+            <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+        </ul>
+    </nav>
+
+    <div id="home" class="home flex flex-col justify-center items-center h-screen ">
+        <h1 class="text-4xl font-bold mb-4">Hi, Welcome to my Portofolio</h1>
+        <p class="text-gray-400 mb-6">Web Developer | UI Designer</p>
+        <a href="#contact" class="bg-blue-500 px-6 py-2 rounded hover:bg-blue-600">Hire Me</a>
+    </div>
+
+    <div id="about" class="about bg-gray-800 h-70 p-5">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-10 items-center ">
+            <img src="foto1.jpeg" class="w-50 h-50 rounded-full object-cover" />
+            <div>
+                <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                <p class="text-gray-400">
+                    Saya adalah adalah salah satu mahasiswa sistem informasi dari universitas trunodjoyo madura, saya
+                    sangat suka dengan prodi saya sendiri tapi saya tidak terlalu bisa ngoding, tapi kelihatannya
+                    seru.Asal saya dari sumatra utara tepatnya di kabupaten tapanuli utara.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="skills py-20 px-5">
+        <h2 class="text-3xl font-bold text-center mb-10">My Skills</h2>
+        <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="bg-gray-800 p-5 rounded hover">HTML</div>
+            <div class="bg-gray-800 p-5 rounded">CSS</div>
+            <div class="bg-gray-800 p-5 rounded">Python</div>
+            <div class="bg-gray-800 p-5 rounded">TailwindCSS</div>
+        </div>
+    </div>
+
+    <div id="services" class="services py-20 px-5 bg-gray-800">
+        <h2 class="text-3xl font-bold text-center mb-10">Services</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div class="bg-gray-700 p-6 rounded hover:scale-105 transition">
+                <h3 class="font-bold mb-2">Web Design</h3>
+                <p class="text-gray-400">Desain website modern dan menarik</p>
+            </div>
+            <div class="bg-gray-700 p-6 rounded hover:scale-105 transition">
+                <h3 class="text-xl font-bold mb-2">Frontend</h3>
+                <p class="text-gray-400">Membangun tampilan responsive</p>
+            </div>
+            <div class="bg-gray-700 p-6 rounded hover:scale-105 transition">
+                <h3 class="text-xl font-bold mb-2">UI/UX</h3>
+                <p class="text-gray-400">Meningkatkan pengalaman pengguna</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="skills py-20 px-5">
+        <h2 class="text-3xl font-bold text-center mb-10">Contact Me</h2>
+
+        <div class="flex flex-wrap justify-center gap-6">
+
+            <a href="https://wa.me/6282213014523" target="_blank"
+                class="flex items-center gap-3 bg-green-500 px-6 py-3 rounded hover:bg-green-600 transition">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="w-6">
+                WhatsApp
+            </a>
+
+            <a href="https://www.instagram.com/geraldoo.li/" target="_blank"
+                class="flex items-center gap-3 bg-pink-500 px-6 py-3 rounded hover:bg-pink-600 transition">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="w-6">
+                Instagram
+            </a>
+
+            <a href="https://www.tiktok.com/@geraldo_xd?is_from_webapp=1&sender_device=pc" target="_blank"
+                class="flex items-center gap-3 bg-black px-6 py-3 rounded hover:bg-gray-700 transition">
+                <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" class="w-6">
+                TikTok
+            </a>
+        </div>
+    </div>
+
+    <div class="footer text-center p-5 bg-gray-800">
+        <p class="text-gray-400">© 2026 Aldo Portfolio</p>
+    </div>
+
+</body>
+
+</html>
